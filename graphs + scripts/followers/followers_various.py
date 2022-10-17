@@ -18,6 +18,8 @@ y = df["Followers"]
 xx = list(x)
 yy = list(y)
 
+print(set(yy))
+
 for j in xx[:]:
    if j>=2000 or j<0:
       del yy[xx.index(j)]
