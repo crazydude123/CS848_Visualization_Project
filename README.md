@@ -1,6 +1,6 @@
 # CS848
 
-1. linNumDataExtraction.py: Has code to extra data from the sstubs.json file on the MSR site
+1. linNumDataExtraction.py: Has code to extract data from the sstubs.json file
 2. 1-500.csv: has 1200 rows of data extracted
 3. nuggetplot.py reads data from 1-500.csv and plots the normalized frequency distribution
 4. collaborators.py
@@ -15,4 +15,8 @@ USAGE:
 4. "python3 collaborators.py" fetches the collaborator/follower/timestamp diff in minutes in that order
 5. collaborators.csv is the o/p of step 4
 6. "python3 followers_various.py" give cluster analyses of followers v. time taken to fix bug
-7. NOTE THAT collaborators.csv actually has the followers. (collaborators aren't a thing dweeb, grow up)
+7. NOTE THAT collaborators.csv actually has the followers
+
+Collab support:
+
+https://colab.research.google.com/drive/1S7kVPEINdOHRflM7F-LC1ZNMms7Tg00t#scrollTo=fcjSoVUtVqLo
